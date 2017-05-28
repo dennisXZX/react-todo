@@ -40,7 +40,7 @@ export default {
 			}
 		})
 
-		// Sort todos with non-completed first
+		// Sort todos with incompleted first
 		filteredTodos.sort((a, b) => {
 			return a.completed < b.completed ? -1 : 1;
 		});
